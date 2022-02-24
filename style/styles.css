@@ -1,0 +1,122 @@
+
+.choose {
+    position: relative;
+    top: 80px;
+    background-image: url(../card/buttlo.png);
+    background-size: contain;
+    line-height: 80px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.choosers {
+    background-image: white;
+    background-size: contain;
+    line-height: 80px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+/* #wybory:hover {
+    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.719) 5%, rgba(0, 0, 0, 0.719) 95%, transparent);
+} */
+.autocomplete {
+    position: relative;
+    top: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    width: auto;
+    width: 700px;
+    display: block;
+    justify-content: var(--wybory-justify);
+    align-content: center;
+    height: auto;
+    z-index: 5;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.883) 55%, rgba(0, 0, 0, 0.503) 90%, transparent);
+}
+.showers {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    width: auto;
+    padding: 7px;
+}
+.start {
+    position: sticky;
+    top: 0%;
+    background-image: url(../card/buttlo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto 0px auto;
+    justify-content: var(--wybory-justify);
+    align-content: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    width: auto;
+    padding: 40px 0px 40px 0px;
+    width: var(--mainWidth);
+    font-size: 28px;
+    display: block;
+}
+.start-of-menu {
+    position: relative;
+    top: 0%;
+    background-image: url(../card/buttlo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto 0px auto;
+    justify-content: var(--wybory-justify);
+    align-content: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+    color: var(--white);
+    width: auto;
+    padding: 40px 0px;
+    width: var(--mainWidth);
+    font-size: 28px;
+    display: block;
+}
+h4 {
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px black, 0px 0px 10px black;
+}
+#add-Skill-Message {
+    margin: 112px 10px 0 10px;
+
+}
+
+.choose-names {
+    display: inline-block;
+    padding-top: 13px;
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 8px black, 1px 1px 8px black, 1px 1px 8px black, 1px 1px 8px black;
+}
+.choose-names-button {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}

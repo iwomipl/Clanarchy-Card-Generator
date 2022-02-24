@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Klanarchia tworzenie postaci</title>
+  <link rel="stylesheet" href="style/style.css" defer>
+  <link rel="stylesheet" href="style/styles.css" defer>
+  <link rel="stylesheet" id="stylownik" defer>
+  <script src="hero.js" defer></script>
+  <script src="views/szablonTalent.js" defer id="family"></script>
+  <script src="app.js" defer></script>
+  <script src="utils/functions.js" defer></script>
+  <script src="views/gridContainer.js" defer></script>
+  <script src="utils.js" defer></script>
+</head>
+
+<body>
+  <main id="main">
+    <div id="wybory"></div>
+    <div class="start">Wybierz Swoją Frakcję </div>
+    <div id="hero">
+      <div class="choose" id="soldaci" onclick="JavaScript:addFraction('soldaci')" value="0">Soldaci</div>
+      <div class="choose" id="hanza" onclick="JavaScript:addFraction('hanza')" value="0">Hanza</div>
+      <div class="choose" id="mechanisci" onclick="JavaScript:addFraction('mechanisci')" value="0">Mechaniści</div>
+      <div class="choose" id="rytualisci" onclick="JavaScript:addFraction('rytualisci')" value="0">Rytualiści</div>
+    </div>
+    <div id="stepFurther">
+    </div>
+    <div id="choose"></div>
+    <div id="postac"></div>
+    <div id="choose-talents">
+    </div>
+    <div class="grid-container">
+    </div>
+    <div class="grid-container-archetype"></div>
+  </main>
+
+
+
+</body>
+
+</html>

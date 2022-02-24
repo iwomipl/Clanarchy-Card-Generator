@@ -1,0 +1,125 @@
+:root{
+    --material-hover-back: red;
+    --box-shadow: inset 0 0 10px rgba(0,0,0, 0.9), inset 0 0 10px rgba(0,0,0, 0.9), 0 0 10px rgba(0,0,0, 0.9), 0 0 10px rgba(0,0,0, 0.9), inset 0 0 10px rgba(0,0,0, 0.9), 0 0 10px rgba(0,0,0, 0.9);
+}
+#one2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+#one3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+#one4 {
+    grid-column: 4;
+    grid-row: 2;
+}
+#one5 {
+    grid-column: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+#halfone2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+#charyzma {
+    grid-column: 2;
+    grid-row: 3;
+}
+#halffour1 {
+    grid-column: 4;
+    grid-row: 3;
+}
+#two2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#two3 {
+    grid-column: 3;
+    grid-row: 4;
+}
+#two4 {
+    grid-column: 4;
+    grid-row: 4;
+}
+#witalnosc {
+    grid-column: 2;
+    grid-row: 5;
+}
+#okultyzm {
+    grid-column: 3;
+    grid-row: 5;
+}
+#czujnosc {
+    grid-column: 4;
+    grid-row: 5;
+}
+#wiedza {
+    grid-column: 5;
+    grid-row: 5;
+}
+#halftwo3 {
+    grid-column: 3;
+    grid-row: 5;
+}
+#halftwo4 {
+    grid-column: 4;
+    grid-row: 5;
+}
+#three2 {
+    grid-column: 2;
+    grid-row: 6;
+}
+#three3 {
+    grid-column: 3;
+    grid-row: 6;
+}
+#three4 {
+    grid-column: 4;
+    grid-row: 6;
+}
+#three5 {
+    grid-column: 5;
+    grid-row: 6;
+}
+#wola {
+    grid-column: 3;
+    grid-row: 7;
+}
+#status {
+    grid-column: 4;
+    grid-row: 7;
+}
+#zimna {
+    grid-column: 5;
+    grid-row: 7;
+}
+#four2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 8;
+}
+#four4 {
+    grid-column: 4;
+    grid-row: 8;
+}
+#four5 {
+    grid-column: 5;
+    grid-row: 8;
+}
+.hover-shadow{
+    text-align: left;
+    padding-top: 4px;;
+}
+.hover-shadow:hover{
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+.half{
+    text-align: center;
+    padding: 0;
+}
+.talentHidden{
+    pointer-events: none;
+}
